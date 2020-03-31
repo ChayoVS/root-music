@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/root-music/static/css/main.5f361e03.chunk.css",
+    "main.js": "/root-music/static/js/main.2955decd.chunk.js",
+    "main.js.map": "/root-music/static/js/main.2955decd.chunk.js.map",
+    "runtime-main.js": "/root-music/static/js/runtime-main.1bb8b87a.js",
+    "runtime-main.js.map": "/root-music/static/js/runtime-main.1bb8b87a.js.map",
+    "static/js/2.94f359ef.chunk.js": "/root-music/static/js/2.94f359ef.chunk.js",
+    "static/js/2.94f359ef.chunk.js.map": "/root-music/static/js/2.94f359ef.chunk.js.map",
+    "index.html": "/root-music/index.html",
+    "precache-manifest.2f51292e3c26c31613891883af200a83.js": "/root-music/precache-manifest.2f51292e3c26c31613891883af200a83.js",
+    "service-worker.js": "/root-music/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/root-music/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.94f359ef.chunk.js.LICENSE.txt": "/root-music/static/js/2.94f359ef.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/root-music/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bb8b87a.js",
+    "static/js/2.94f359ef.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2955decd.chunk.js"
+  ]
+}
