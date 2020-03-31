@@ -1,19 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.css';
-//import Routes from './routes';
-import ButtonAppBar from './components/ButtonAppBar';
+import Routes from './routes';
+import Nav from './components/Nav';
 import Store from './store/store';
 import { Provider } from 'react-redux';
 
 function App() {
   return (
-    <Fragment>
     <Provider store={Store}>
     <div className="App">
-      <ButtonAppBar></ButtonAppBar>
+      <Nav/>
+      <main>
+        <Routes/>
+      </main>
     </div>
     </Provider>
-    </Fragment>
   );
 }
 
