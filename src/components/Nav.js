@@ -41,8 +41,8 @@ const Nav = (props) => {
   }else{
       buttons = (    
           <Fragment>
-              <li><Link to="/signin">signIn</Link></li>
-              <li><Link to="/login">logIn</Link></li>              
+              <li><Link to="/signin">Sign In</Link></li>
+              <li><Link to="/login">Log In</Link></li>              
           </Fragment>)
   }
 
@@ -54,9 +54,9 @@ const Nav = (props) => {
          
         </ul>
         <ul>
+        <li><Link to="/music">My music</Link></li>
         <li><Link to="/home">Home</Link></li>
         {buttons}
-     
         </ul>
       </nav>
     )
