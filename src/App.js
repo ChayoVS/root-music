@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Routes from './routes';
-import Nav from './components/Nav';
+import Nav from './components/Nav/Nav';
 import Store from './store/store';
 import { Provider } from 'react-redux';
 

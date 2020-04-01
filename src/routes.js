@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 //import the components
-import Main from './components/Main';
+import Main from './components/Main/Main';
 import Signin from './components/Signin';
 import Login from './components/Login';
 import Auth from './components/auth';

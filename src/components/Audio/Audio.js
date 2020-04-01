@@ -5,6 +5,7 @@ import Pause from "./Pause";
 import Bar from "./Bar";
 import useAudioPlayer from './useAudioPlayer';
 import './styles.css';
+import song from '../../assets/song.mp3'
 
 
 
@@ -14,7 +15,7 @@ const Audio = () =>  {
   return (
     <div className="player">
       <audio id="audio">
-        <source src="../../../public/song.mp3" type="audio/mp3"></source>
+        <source src={song}></source>
         Your browser does not support the <code>audio</code> element.
       </audio>
       <Song songName="Caprice 24" songArtist="Nicolo Paganini" />

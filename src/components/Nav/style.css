@@ -1,0 +1,20 @@
+.MuiAppBar-colorPrimary{
+    background-color: #ecd21b !important;
+}
+
+a{
+    text-decoration: none !important;
+    color:#db0297 !important;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+a{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 500px) {
+    a{
+        font-size: 15px;
+    }
+}

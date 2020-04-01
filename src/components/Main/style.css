@@ -1,0 +1,23 @@
+body {
+    background-color: #06aae9;
+}
+
+h1 {
+    color: #ecd21b;
+}
+.logo-2{
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .logo-2{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .logo-2{
+        width: 90%;
+    }
+}

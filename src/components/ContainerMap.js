@@ -26,7 +26,6 @@ const ContainerMap = () => {
 
     return (
          <div className="map-container" ref={mapContainerRef}>
-
          </div>
     )
 }
