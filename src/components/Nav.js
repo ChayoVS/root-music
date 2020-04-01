@@ -54,7 +54,6 @@ const Nav = (props) => {
          
         </ul>
         <ul>
-        <li><Link to="/music">My music</Link></li>
         <li><Link to="/home">Home</Link></li>
         {buttons}
         </ul>

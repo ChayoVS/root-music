@@ -11,8 +11,8 @@ const ContainerMap = () => {
         const map = new mapboxgl.Map({
             container: mapContainerRef.current,
             style:'mapbox://styles/mapbox/streets-v11',
-            center: [-104.9876, 39.7405],
-            zoom: 12.5
+            center: [-100.309, 25.6714],
+            zoom: 12
         });
         map.addControl(new mapboxgl.GeolocateControl({
             positionOptions: {
