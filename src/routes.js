@@ -6,7 +6,7 @@ import Main from './components/Main/Main';
 import Signin from './components/Signin';
 import Login from './components/Login';
 import Auth from './components/auth';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 
 const Routes = () => (
    
